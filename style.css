@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.text {
+    display : block;
+    margin: 10px auto;
+    width: 80vw;
+    height: 20vw;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-family: monospace;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.blueColor{
+    color: blue;
+}
+.border {
+    border: 1px solid;
+}
